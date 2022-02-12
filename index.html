@@ -3,27 +3,29 @@
 <head>
     <meta charset="utf-8">
     <title>Nabiqasim Attendance System</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 
 <body>
-    <div class="center"><img class="logo-center"; src="logo.png" width="100px" height="100px">
+    <div class="center"><img class="logo-center" src="logo.jpg" width="100px" height="100px">
+        <section class="group-logos"><figure><img src="Plastech.png" width="70px" height="70px"><img src="ETDC.png" width="70px" height="70px"><img src="Stancos.png" width="70px" height="70px"><img src="Surge.png" width="70px" height="70px"></figure></section>
         <form method="post">
             <h1>Attendance System Login</h1>
             <div class="input-fields">
-                <input type="text" required>
+                <input type="text">
                 <span></span>
                 <label>Emp. ID</label>
             </div>
             <div class="input-fields">
-                <input type="password" required>
+                <input type="password">
                 <span></span>
                 <label>Password</label>
             </div>
             <!--<div class="forgot-pass">Forgot Password?</div>-->
-            <input type="submit" value="Login" class="submit">
+            <input type="submit" value="Login" class="submit"><a href="profile-page.html" id="default-page"></a>
+            <div class="pass">Forgot Password?</div> 
             <!--<div class="signup-link"><a href="#">Sign Up</a></div>-->
         </form>
     </div>
